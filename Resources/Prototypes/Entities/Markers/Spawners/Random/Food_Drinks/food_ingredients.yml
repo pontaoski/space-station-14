@@ -41,12 +41,14 @@
       - !type:GroupSelector
         children:
         - id: ReagentContainerFlour
+        - id: ReagentContainerFiber
         - id: ReagentContainerCornmeal
         - id: ReagentContainerRice
         - id: ReagentContainerSugar
         - !type:GroupSelector
           children:
           - id: ReagentContainerFlourSmall
+          - id: ReagentContainerFiberSmall
           - id: ReagentContainerCornmealSmall
           - id: ReagentContainerRiceSmall
           - id: ReagentContainerSugarSmall

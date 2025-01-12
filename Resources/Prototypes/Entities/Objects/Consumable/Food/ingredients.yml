@@ -115,6 +115,38 @@
           Quantity: 20
 
 - type: entity
+  parent: [ReagentPacketBase, ItemHeftyBase]
+  id: ReagentContainerFiber
+  name: fiber bag
+  description: A big bag of fiber. Good for moths!
+  components:
+  - type: Sprite
+    state: fiber-big
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 50
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 50
+
+- type: entity
+  parent: [ReagentPacketBase, ItemHeftyBase]
+  id: ReagentContainerFiberSmall
+  name: fiber pack
+  description: A pack of fiber. Good for moths!
+  components:
+  - type: Sprite
+    state: fiber-small
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 20
+
+- type: entity
   parent: ReagentPacketBase
   id: ReagentContainerCornmeal
   name: cornmeal bag

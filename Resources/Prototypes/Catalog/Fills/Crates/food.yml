@@ -49,6 +49,8 @@
       amount: 3
     - id: ReagentContainerRice
       amount: 3
+    - id: ReagentContainerFiber
+      amount: 3
     - id: DrinkMilkCarton
       amount: 4
     - id: DrinkSoyMilkCarton
